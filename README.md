@@ -1,4 +1,5 @@
 **Stock Price Forecasting & Portfolio Optimization Using RNNs and SLSQP**
+----
 🧠 Overview
 This project combines deep learning and financial modeling to build an end-to-end stock price forecasting and portfolio optimization pipeline. Using 20 years of historical data from five uncorrelated Dow Jones stocks, we forecast future stock returns with LSTM-based RNNs and apply Sharpe Ratio-based optimization via Sequential Least Squares Programming (SLSQP) to allocate portfolio weights that maximize risk-adjusted returns.
 
