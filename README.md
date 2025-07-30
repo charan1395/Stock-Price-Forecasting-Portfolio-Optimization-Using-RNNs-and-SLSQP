@@ -2,6 +2,7 @@
 🧠 Overview
 This project combines deep learning and financial modeling to build an end-to-end stock price forecasting and portfolio optimization pipeline. Using 20 years of historical data from five uncorrelated Dow Jones stocks, we forecast future stock returns with LSTM-based RNNs and apply Sharpe Ratio-based optimization via Sequential Least Squares Programming (SLSQP) to allocate portfolio weights that maximize risk-adjusted returns.
 
+-----
 💡 Objectives
 Forecast future stock prices using LSTM-based RNN models.
 
@@ -13,6 +14,7 @@ Evaluate portfolio survival under different withdrawal strategies.
 
 Demonstrate the value of deep learning for long-term investment strategies.
 
+-----
 📊 Dataset
 Source: Yahoo Finance via yfinance
 
@@ -22,6 +24,7 @@ Duration: 20 years of historical daily data
 
 Criteria: Selected based on low inter-stock correlation to ensure diversification.
 
+-----
 🛠️ Technologies Used
 Python
 
@@ -37,6 +40,7 @@ Matplotlib, Seaborn for visualization
 
 SciPy (SLSQP) for portfolio optimization
 
+-----
 🔁 Methodology
 Data Collection: Fetched 20 years of historical price data.
 
@@ -52,6 +56,7 @@ Applied SLSQP to maximize Sharpe ratio after each forecast cycle.
 
 Survival Analysis: Simulated withdrawal scenarios and tracked portfolio sustainability.
 
+-----
 📈 Key Results
 Achieved 62% reduction in RMSE through LSTM tuning.
 
@@ -61,5 +66,6 @@ Identified optimal portfolio allocation that balances growth and risk.
 
 Built an explainable and adaptable framework for long-term portfolio strategy.
 
+-----
 🧠 Business Impact
 This project provides a scalable solution for financial advisors and asset managers to forecast stock behavior and strategically rebalance portfolios. The methodology can be adapted for robo-advisors or retirement fund planning, offering intelligent, data-driven decisions that improve investor confidence and returns.
